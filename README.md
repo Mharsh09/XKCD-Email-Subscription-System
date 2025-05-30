@@ -1,9 +1,15 @@
-# XKCD-Email-Subscription-System
-Key Skills: PHP, MySQL, HTML, CSS, JavaScript, Git, CRON, PHPMailer, SMTP
+# 📬 XKCD Email Subscription System
 
-Developed a PHP-based email verification and subscription system that sends a random XKCD comic to verified users every day via email.
+A PHP-based email verification and subscription system that delivers a random [XKCD](https://xkcd.com/) comic every 24 hours to registered users via email. Built with vanilla PHP, file-based storage, and automated using CRON. Includes a secure email verification flow and unsubscribe mechanism.
 
-•Implemented secure email registration with 6-digit code verification and unsubscribe mechanism
-•Scheduled automated comic delivery using a CRON job and integrated with the live XKCD API
-•Used PHPMailer with Gmail SMTP to format and send HTML emails with embedded unsubscribe links
-•Followed strict submission guidelines and used Git for version control and PR management
+---
+
+## 🚀 Features
+
+- ✅ Email registration with 6-digit code verification
+- 📩 Daily XKCD comic emails sent in HTML format
+- 🔁 Automatic CRON job to fetch and send comics
+- ❌ Secure unsubscribe flow with confirmation code
+- 🧾 File-based storage (no database required)
+- 🛠 PHPMailer + Gmail SMTP integration
+- 🧪 Logs for email and CRON execution
