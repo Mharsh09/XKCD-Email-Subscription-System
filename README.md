@@ -13,3 +13,5 @@ A PHP-based email verification and subscription system that delivers a random [X
 - 🧾 File-based storage (no database required)
 - 🛠 PHPMailer + Gmail SMTP integration
 - 🧪 Logs for email and CRON execution
+
+<img width="979" alt="Screenshot 2025-05-31 at 12 09 54 AM" src="https://github.com/user-attachments/assets/d963e915-ea5d-42fb-a6a8-b4e7363035f0" />
